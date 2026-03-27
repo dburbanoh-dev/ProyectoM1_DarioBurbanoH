@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Proyecto M1 Dario</title>
+  </head>
+  <body>
+    <div class="wrapper">
+        <header>
+        <div class="title">
+            <h1>ColorFly Studio 🎨</h1>
+            <span>Generador de Paletas</span>
+      </div>
+    </header>
+    </div>
+
+
+    <main class="main">
+      <section>
+        <div>
+          <h2 class="main-title">
+            Genera paletas <br />
+            <span class="span-main">únicas</span> al instante
+          </h2>
+        </div>
+
+        <aside class="controls-panel" aria-label="Controles de generación">
+            <div
+              class="control-group"
+              role="group"
+              aria-labelledby="label-size"
+            >
+              <span id="label-size" class="control-label"
+                >Tamaño de paleta</span
+              >
+              <div class="size-options">
+                <button
+                  class="size-btn active"
+                  data-size="6"
+                  aria-pressed="true"
+                  aria-label="6 colores"
+                >
+                  6
+                </button>
+                <button
+                  class="size-btn"
+                  data-size="8"
+                  aria-pressed="false"
+                  aria-label="8 colores"
+                >
+                  8
+                </button>
+                <button
+                  class="size-btn"
+                  data-size="9"
+                  aria-pressed="false"
+                  aria-label="9 colores"
+                >
+                  9
+                </button>
+              </div>
+            </div>
+
+            <div
+              class="control-group"
+              role="group"
+              aria-labelledby="label-format"
+            >
+              <span id="label-format" class="control-label">Formato</span>
+              <div class="format-options">
+                <button
+                  class="format-btn active"
+                  data-format="hex"
+                  aria-pressed="true"
+                >
+                  HEX
+                </button>
+                <button
+                  class="format-btn"
+                  data-format="hsl"
+                  aria-pressed="false"
+                >
+                  HSL
+                </button>
+              </div>
+            </div>
+
+            <button
+              id="btn-generate"
+              class="btn-generate"
+              aria-describedby="palette-count"
+            >
+              Generar paleta 🎨
+            </button>
+          </aside>
+        </section>
+
+        <section id="palette-section" aria-labelledby="palette-heading">
+          <h2 class="sr-only" id="palette-heading">Paleta generada</h2>
+
+          <div id="palette-meta" class="palette-meta" hidden>
+            <span
+              id="palette-count"
+              class="palette-count"
+              aria-live="polite"
+            ></span>
+            <span id="palette-timestamp" class="palette-timestamp"></span>
+          </div>
+
+          <div id="empty-state" class="empty-state" aria-label="Sin paleta aún">
+            <div class="empty-icon" aria-hidden="true">🎨</div>
+            <p class="empty-title">Tu paleta aparecerá aquí</p>
+            <p class="empty-sub">
+              Selecciona el tamaño y el formato, luego presiona
+              <strong>Generar paleta</strong>
+            </p>
+          </div>
+
+          <div
+            id="palette-grid"
+            class="palette-grid"
+            role="list"
+            aria-label="Colores generados"
+          ></div>
+        </section>
+      </main>
+
+      <footer>
+        <span class="footer-copy">© 2026 Dario Burbano</span>
+        <span class="footer-badge">ProyectoM1</span>
+      </footer>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
