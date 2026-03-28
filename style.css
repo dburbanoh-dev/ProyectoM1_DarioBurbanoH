@@ -97,12 +97,15 @@ header {
 }
 
 .size-options button:hover {
+  border-radius: 10px;
   color: white;
   cursor: pointer;
   background-color: #7a4949;
 }
 
 .format-options button:hover {
+  max-width: 50%;
+  border-radius: 10px;
   color: white;
   background-color: #7a4949;
 }
@@ -125,6 +128,7 @@ header {
 }
 
 .control-label {
+  border-radius: 10px;
   font-family: var(--font-mono);
   font-size: 0.65rem;
   letter-spacing: 0.14em;
@@ -134,7 +138,7 @@ header {
 
 .size-options {
   display: flex;
-  gap: 8px;
+  gap: 100px;
 }
 
 .size-btn {
@@ -169,7 +173,7 @@ header {
 
 .format-options {
   display: flex;
-  gap: 8px;
+  gap: 100px;
 }
 
 .format-btn {
@@ -440,7 +444,7 @@ header {
 }
 
 .empty-title {
-  font-family: var(--font-display);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 1.3rem;
   font-style: italic;
   color: #000;
