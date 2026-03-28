@@ -4,7 +4,7 @@ html {
 
 body {
   font-family: "Times New Roman", Times, serif;
-  background: #c4c1bc;
+  background: rgb(226, 227, 226);
   color: black;
   min-height: 100vh;
   overflow-x: scroll;
@@ -202,6 +202,22 @@ header {
   outline-offset: 2px;
 }
 
+.boton {
+  display: flex;
+  justify-content: center;
+}
+
+.boton button {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.boton button:hover {
+  background-color: #7a4949;
+  color: white;
+  transition: 0.3s;
+}
 .btn-generate {
   align-items: center;
   display: flex;
