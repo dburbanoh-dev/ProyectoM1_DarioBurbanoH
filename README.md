@@ -21,3 +21,5 @@ Herramienta web estática que permite a los equipos de diseño de
 | HTML semántico | ✅ |
 | Accesibilidad: labels asociados, contraste, foco visible | ✅ |
 | Funcionamiento en desktop | ✅ |
+
+Ver demo del proyecto aquí: <https://dburbanoh-dev.github.io/ProyectoM1_DarioBurbanoH/>
