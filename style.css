@@ -4,7 +4,7 @@ html {
 
 body {
   font-family: "Times New Roman", Times, serif;
-  background: rgb(226, 227, 226);
+  background: linear-gradient(rgb(148, 148, 213), rgb(187, 184, 184));
   color: black;
   min-height: 100vh;
   overflow-x: scroll;
