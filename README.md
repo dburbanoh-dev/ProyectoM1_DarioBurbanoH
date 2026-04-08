@@ -25,3 +25,5 @@ Herramienta web estática que permite a los equipos de diseño de
 Ver demo del proyecto aquí: <https://dburbanoh-dev.github.io/ProyectoM1_DarioBurbanoH/>
 
 Ver repositorio de GItHub aquí: <https://github.com/dburbanoh-dev/ProyectoM1_DarioBurbanoH>
+
+Ver el documento word aquí: <https://docs.google.com/document/d/1R8bOXCleg3GUunNjY0EjM3DQO9IHsA0dxKDXv9vbSDY/edit?usp=sharing>
